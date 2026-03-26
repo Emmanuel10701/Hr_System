@@ -1,0 +1,223 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/CACHE/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+*.env
+!.env.example
+
+# Sensitive data
+secrets.json
+config.json
+credentials.json
+service-account.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Database
+*.sql
+*.sqlite3
+*.db
+*.mdb
+*.accdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+.project
+.pydevproject
+.settings/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (if using any frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Frontend build files
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Docker
+docker-compose.override.yml
+*.pid
+docker-compose.local.yml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# API keys and tokens
+api_keys.txt
+tokens.txt
+*.secret
+*.key
+*.priv
+
+# Deployment
+.cpanel/
+.cache/
+.elasticbeanstalk/
+.ebextensions/
+.s3cfg
+.aws/
+.heroku/
+.sls/
+.serverless/
+
+# Project specific
+static/
+media/
+uploads/
+temp/
+tmp/
+celerybeat-schedule
+celerybeat.pid
+*.pid
+
+# Environment specific
+.env.*
+!.env.example
+config.local.py
+settings_local.py
+local.py
+
+# Security
+*.pem
+*.cert
+*.csr
+*.key
+*.pub
+*.priv
+*.p12
+*.pfx
+
+# Prisma (if using)
+prisma/*.db
+prisma/*.db-journal
+prisma/migrations/*.sql
+!prisma/migrations/migration_lock.toml
+
+# Next.js (if applicable)
+.next/
+out/
+build/
+.cache/
+
+# Log files
+*.log
+logs/
